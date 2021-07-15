@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/widjuu/elves/static/css/main.6586723e.chunk.css",
-    "main.js": "/widjuu/elves/static/js/main.0a1f7d5e.chunk.js",
-    "main.js.map": "/widjuu/elves/static/js/main.0a1f7d5e.chunk.js.map",
-    "runtime-main.js": "/widjuu/elves/static/js/runtime-main.ae059a20.js",
-    "runtime-main.js.map": "/widjuu/elves/static/js/runtime-main.ae059a20.js.map",
-    "static/css/2.b4e56faa.chunk.css": "/widjuu/elves/static/css/2.b4e56faa.chunk.css",
-    "static/js/2.addb274c.chunk.js": "/widjuu/elves/static/js/2.addb274c.chunk.js",
-    "static/js/2.addb274c.chunk.js.map": "/widjuu/elves/static/js/2.addb274c.chunk.js.map",
-    "static/js/3.29caf245.chunk.js": "/widjuu/elves/static/js/3.29caf245.chunk.js",
-    "static/js/3.29caf245.chunk.js.map": "/widjuu/elves/static/js/3.29caf245.chunk.js.map",
-    "index.html": "/widjuu/elves/index.html",
-    "static/css/2.b4e56faa.chunk.css.map": "/widjuu/elves/static/css/2.b4e56faa.chunk.css.map",
-    "static/css/main.6586723e.chunk.css.map": "/widjuu/elves/static/css/main.6586723e.chunk.css.map",
-    "static/js/2.addb274c.chunk.js.LICENSE.txt": "/widjuu/elves/static/js/2.addb274c.chunk.js.LICENSE.txt"
+    "main.css": "/elves/static/css/main.6586723e.chunk.css",
+    "main.js": "/elves/static/js/main.0a1f7d5e.chunk.js",
+    "main.js.map": "/elves/static/js/main.0a1f7d5e.chunk.js.map",
+    "runtime-main.js": "/elves/static/js/runtime-main.19cb961e.js",
+    "runtime-main.js.map": "/elves/static/js/runtime-main.19cb961e.js.map",
+    "static/css/2.b4e56faa.chunk.css": "/elves/static/css/2.b4e56faa.chunk.css",
+    "static/js/2.f25008cd.chunk.js": "/elves/static/js/2.f25008cd.chunk.js",
+    "static/js/2.f25008cd.chunk.js.map": "/elves/static/js/2.f25008cd.chunk.js.map",
+    "static/js/3.29caf245.chunk.js": "/elves/static/js/3.29caf245.chunk.js",
+    "static/js/3.29caf245.chunk.js.map": "/elves/static/js/3.29caf245.chunk.js.map",
+    "index.html": "/elves/index.html",
+    "static/css/2.b4e56faa.chunk.css.map": "/elves/static/css/2.b4e56faa.chunk.css.map",
+    "static/css/main.6586723e.chunk.css.map": "/elves/static/css/main.6586723e.chunk.css.map",
+    "static/js/2.f25008cd.chunk.js.LICENSE.txt": "/elves/static/js/2.f25008cd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ae059a20.js",
+    "static/js/runtime-main.19cb961e.js",
     "static/css/2.b4e56faa.chunk.css",
-    "static/js/2.addb274c.chunk.js",
+    "static/js/2.f25008cd.chunk.js",
     "static/css/main.6586723e.chunk.css",
     "static/js/main.0a1f7d5e.chunk.js"
   ]
