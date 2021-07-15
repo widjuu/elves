@@ -1,14 +1,15 @@
+import { useState } from "react";
+
 //componetns
 import { Button, Upload, message } from "antd";
 import { UploadOutlined } from "@ant-design/icons";
 
-export const UploadFile = ({ file, setFile }) => {
+export const UploadFile = ({ handleRead }) => {
+  const [file, setFile] = useState([]);
+
   const props = {
-    onRemove: (file) => {
-      const index = file.indexOf(file);
-      const newFileList = file.slice();
-      newFileList.splice(index, 1);
-      setFile([newFileList]);
+    onRemove: () => {
+      setFile([]);
     },
 
     beforeUpload: (file) => {
@@ -21,9 +22,8 @@ export const UploadFile = ({ file, setFile }) => {
         message.error("Не правильный формат файла");
       }
 
-      if (isCsvOrXlsx) {
-        setFile([file]);
-      }
+      setFile([file]);
+      handleRead(file);
     },
   };
 

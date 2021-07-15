@@ -14,7 +14,6 @@ import style from "./App.module.css";
 import "antd/dist/antd.css";
 
 export const App = () => {
-  const [file, setFile] = useState([]);
   const [data, setData] = useState([]);
 
   const reader = new FileReader();
@@ -29,17 +28,15 @@ export const App = () => {
     const data = XLSX.utils.sheet_to_json(ws, {
       header: 1,
     });
-    setData(data);
+    setData(getTxt(data));
   };
 
-  const downloadClick = () => {
-    reader.readAsBinaryString(file[0]);
+  const handleRead = (file) => {
+    reader.readAsBinaryString(file);
+  };
 
-    const txt = getTxt(data);
-
-    if (txt) {
-      download(txt);
-    }
+  const downloadClick = (data) => {
+    download(data);
   };
 
   return (
@@ -58,12 +55,12 @@ export const App = () => {
       />
 
       <div className={style.buttons}>
-        <UploadFile file={file} setFile={setFile} />
+        <UploadFile handleRead={handleRead} />
 
         <Button
           type="primary"
-          onClick={downloadClick}
-          disabled={file.length === 0}
+          onClick={() => downloadClick(data)}
+          disabled={data.length === 0}
         >
           Скачать
         </Button>

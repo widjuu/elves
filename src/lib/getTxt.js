@@ -1,5 +1,5 @@
 export const getTxt = (data) => {
-  let txt = ["[1]"];
+  let txt = [];
 
   if (!data) {
     return null;
@@ -16,5 +16,5 @@ export const getTxt = (data) => {
     return null;
   });
 
-  return txt;
+  return ["[1]", ...txt];
 };
