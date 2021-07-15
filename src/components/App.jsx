@@ -45,7 +45,7 @@ export const App = () => {
         message={
           <span>
             Скачайте &nbsp;
-            <a href="/templates/шаблон.xlsx" download>
+            <a href="/elves/templates/шаблон.xlsx" download>
               шаблон
             </a>
             &nbsp; и заполните его.
